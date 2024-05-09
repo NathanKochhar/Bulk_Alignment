@@ -23,6 +23,12 @@ After submitting the program will take a while to run, this is because alignment
 ### Video Demo
 Here is a link to a video demo of the web page and how it works: https://youtu.be/Smpc8uERSeg
 
+### MySQL Database
+This project has little need for a database but one is hosted on the bfx server under nkochha1_final. This database serves as a run info log saving file paths and genome locations. This database is very simple and has three tables:
+* run_info
+* genomes
+* outputs
+
 
 ### Future ideas
 This project is a good start and foundation for a platform to run rna-seq alignments. This web app has plenty of room for improvements and the list could go on forever, some ideas are:
