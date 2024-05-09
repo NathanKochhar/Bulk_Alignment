@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>RNA-seq Aligner</h1>
-    <form action="aligner.cgi" method="post">
+    <form name="aligner" id="aligner" method="post" action="./aligner.cgi">
         <div>
             <label for="r1_fastq">Enter R1 fastq file path:</label>
             <input type="text" id="r1_fastq" name="r1_fastq" required>
@@ -15,21 +15,6 @@
         <div>
             <label for="r2_fastq">Enter R2 fastq file path:</label>
             <input type="text" id="r2_fastq" name="r2_fastq" required>
-        </div>
-        <div>
-            <label for="species">Select species:</label>
-            <select id="species" name="species">
-                <option value="human">Human</option>
-                <option value="mouse">Mouse</option>
-            </select>
-        </div>
-        <div>
-            <label for="strand">Select strand:</label>
-            <select id="strand" name="strand">
-                <option value="1st">1st</option>
-                <option value="2nd">2nd</option>
-                <option value="unstranded">Unstranded</option>
-            </select>
         </div>
         <button type="submit">Submit</button>
     </form>
