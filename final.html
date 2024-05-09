@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RNA-seq Alignment Results</title>
+</head>
+<body>
+    <h1>Alignment Inputs</h1>
+    <p>R1 fastq file path: "{{ r1_path }}"</p>
+    <p>R2 fastq file path: "{{ r2_path }}"</p>
+    <h2>QC Outputs</h2>
+    <p>FastQC output dir: "{{ fastqc_path }}"</p>
+    <p>Trimmed R1 fastq file path: "{{ trimmed_r1 }}"</p>
+    <p>Trimmed R2 fastq file path: "{{ trimmed_r2 }}"</p>
+    <h2>STAR Alignment Outputs</h2>
+    <p>Aligned BAM file path: "{{ star_bam }}"</p>
+    <p>Counts table file path: "{{ star_counts }}"</p>
+    <h3>Reads Per Gene</h3>
+    <table border="1">
+        <tr>
+            <th>Gene</th>
+            <th>Count</th>
+        </tr>
+        {% for line in lines %}
+        <tr>
+            <td>{{ line[0] }}</td>
+            <td>{{ line[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
+
