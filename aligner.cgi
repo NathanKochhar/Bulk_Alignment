@@ -4,7 +4,7 @@ import subprocess
 import cgi
 import jinja2
 import re
-#import mysql.connector
+import mysql.connector
 import html
 
 form = cgi.FieldStorage()
