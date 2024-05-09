@@ -32,6 +32,6 @@ This project is a good start and foundation for a platform to run rna-seq alignm
 * mutliqc report
 * much more
 
-This has been a very difficult and time consuming project for me and I have learned a lot thoughout the process. Starting with my first time using GCM which was a pain in my opinion, having ssh issue to running out of resources and having to create a new machine. I also had to set of a VM for the first time from installing all dependencies and apache to get my code to work. It has been a long process but I hope you like the end result!
+This has been a very difficult and time consuming project for me and I have learned a lot thoughout the process. Starting with my first time using GCM which was a pain in my opinion, having ssh issue to running out of resources and having to create a new machine. I also had to set of a VM for the first time from installing all dependencies and apache to get my code to work. Trying to get mysql to work on the GCP was too tedious to complete so I created the sql database on the bfx server as a placeholder, this project doesn't need a database so it would only keep track of run info anyways. Creating this projects has been a long process but I hope you like the end result!
 
 This machine will only be active for a short time due to the cost of keeping it up and running. 
