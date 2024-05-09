@@ -20,6 +20,8 @@ After submitting the program will take a while to run, this is because alignment
 * the counts matrix path
 * the head of the counts matrix
 
+### Video Demo
+Here is a link to a video demo of the web page and how it works: https://youtu.be/Smpc8uERSeg
 
 
 ### Future ideas
